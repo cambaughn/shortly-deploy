@@ -20,7 +20,7 @@ app.use(session({
   secret: 'shhh, it\'s a secret',
   resave: false,
   saveUninitialized: true
-})); 
+}));
 
 app.get('/', util.checkUser, handler.renderIndex);
 app.get('/create', util.checkUser, handler.renderIndex);
