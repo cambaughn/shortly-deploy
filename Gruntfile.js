@@ -105,7 +105,7 @@ module.exports = function(grunt) {
     'concat', //concat puts them all in one file
     'uglify', //uglifies the file (UNLINTABLE)
     'mochaTest' //test stability of converted files
-  ]);
+  ]); 
 
   grunt.registerTask('server', [
     'nodemon'
